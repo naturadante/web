@@ -502,15 +502,10 @@ a:focus {
 
 
 .gallery_section .cont {
-  margin: 15px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
   padding-bottom: 50px;
-  width:250px;
+  width:100%;
   text-align:center;
   vertical-align: top;
-  position: static;
   display: -webkit-box;
   display: -ms-flexbox;
   display: inline-block;
@@ -521,15 +516,11 @@ a:focus {
 
 .gallery_section .cont .img {
   margin: 0px;
-  padding: 1px;
-  width:224px;
-  height:224px;
   position: static;
   display: -webkit-box;
   display: -ms-flexbox;
   display: inline-block;
   overflow: hidden;
-  border:#efefef solid 1px;
 
 }
 .gallery_section .cont .img:hover{
@@ -570,29 +561,22 @@ a:focus {
   text-decoration: underline;  
 }
 .gallery_section .cont_detail .btn_back{
-  width:100%;
-  margin-bottom:40px;    
+  width:100%; 
   text-align:right;
   font-size:22px;
   margin-bottom:40px;    
 }
 .gallery_section .cont_detail .img {
   float:left;
-  margin: 0px;
-  width:380px;
+  width:100%;
+  padding:0px;
   border:#efefef solid 1px;
-
-
 }
 .gallery_section .cont_detail .icerik {
   float:left;
-  margin: 0px;
-  margin-left:20px;
-  width:720px;
-}
-
-	  
-	  
+  width:100%;
+  padding-left:20px;
+}	  
 	  
 .client_section {
   position: relative;
@@ -881,6 +865,14 @@ a:focus {
   width: 20px;
   height: auto;
   margin-right: 12px;
+}
+
+.info_contact > div a{
+  color: #ffffff;
+}
+
+.info_contact > div a:hover{
+  color: #ae8ee5;
 }
 
 /* footer section*/
